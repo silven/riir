@@ -1,0 +1,12 @@
+[package]
+name = "wasm"
+version = "0.1.0"
+authors = ["Mikael Silvén <mikael@silven.nu>"]
+
+[dependencies]
+sha1 = "0.3"
+# The features we need haven't been published to crates.io yet
+stdweb = { git = "https://github.com/koute/stdweb" }
+
+[lib]
+crate-type = ["cdylib"]
