@@ -1,0 +1,14 @@
+[package]
+name = "rust2py"
+version = "0.1.0"
+authors = ["Mikael Silvén <mikael@silven.nu>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rayon = "0.9"
+
+[dependencies.cpython]
+version = "0.1"
+features = ["extension-module"]
