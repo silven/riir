@@ -1,0 +1,9 @@
+[package]
+name = "rust-fib"
+version = "0.1.0"
+authors = ["Mikael Silvén <mikael@silven.nu>"]
+
+[dependencies]
+
+[lib]
+crate-type = ["cdylib"]
