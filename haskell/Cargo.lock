@@ -1,0 +1,14 @@
+[[package]]
+name = "curryrs"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "haskell"
+version = "0.1.0"
+dependencies = [
+ "curryrs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum curryrs 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "eecfd4f23d3144737834aa226a70a8b5e08158ad2e09b66d0205404cf5bcd12f"

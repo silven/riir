@@ -1,0 +1,16 @@
+name:                haskell
+version:             0.1.0.0
+author:              Mikael Silvén
+maintainer:          mikael@silven.nu
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable haskell
+  main-is:             Main.hs
+  extra-lib-dirs:      target/debug
+  extra-libraries:     haskell
+  build-depends:       base >=4.9 && <4.10
+                    ,  curryrs >= 0.2.0
+  hs-source-dirs:      src
+  default-language:    Haskell2010
