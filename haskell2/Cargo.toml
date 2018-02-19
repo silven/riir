@@ -1,0 +1,11 @@
+[package]
+name = "haskell2"
+version = "0.1.0"
+authors = ["Mikael Silvén <mikael@silven.nu>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.26"
+
+[dependencies]
+curryrs = "0.2"
